@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import streamlit as st
 
 # Load the merged dataset
-merged_shipping = pd.read_csv(r'C:\Users\Admin\Desktop\submission\dashboard\merged_shipping.csv')
-merged_reviews = pd.read_csv(r'C:\Users\Admin\Desktop\submission\dashboard\merged_reviews.csv')
+merged_shipping = pd.read_csv('..\dashboard\merged_shipping.csv')
+merged_reviews = pd.read_csv('..\dashboard\merged_reviews.csv')
 
 # --------------- Pertanyaan 1 ---------------
 # Hitung waktu pengiriman aktual dan estimasi
